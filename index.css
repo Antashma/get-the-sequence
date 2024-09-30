@@ -1,0 +1,87 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#game-container {
+    width: 500px;
+}
+
+#game-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+#pattern {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Princess Sofia', cursive;
+
+}
+
+#button-container {
+    display: flex;
+    flex-wrap: wrap;
+    width:300px;
+
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.num-btn {
+    font-size: 4rem;    
+    width: 100px;
+    height: 100px;
+
+    font-weight: bold;
+    font-family: 'Princess Sofia', cursive;
+
+}
+
+.end-text {
+    background-color: hotpink;
+    color: white;
+    padding:5px;
+
+    font-size: 5rem;
+    text-align: center;
+}
+
+#game-container a {
+    font-weight: bold;
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#game-container a:hover {
+    background-color: pink;
+
+}
