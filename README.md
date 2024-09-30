@@ -1,6 +1,8 @@
 # Get the Sequence
 Frontend game built using JavaScript, HTML, and CSS, designed to challenge players to repeat a sequence of numbers within a time limit.
 
+Website URL: [https://get-the-sequence.vercel.app](https://get-the-sequence.vercel.app/)
+
 ![Game screenshot](./assets/screenshot.png "Game screenshot")
 
 ## Instructions
