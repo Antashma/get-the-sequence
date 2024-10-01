@@ -6,5 +6,5 @@ Website URL: [https://get-the-sequence.vercel.app](https://get-the-sequence.verc
 ![Game screenshot](./assets/screenshot.png "Game screenshot")
 
 ## Instructions
-Press the buttons to match the number sequence in the box below. Be quick you have 5 seconds and are allowed 3 mistakes!
+Press the buttons to match the number sequence in the box below. Be quick--you have 5 seconds and are allowed 3 mistakes!
 

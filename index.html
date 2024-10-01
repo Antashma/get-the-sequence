@@ -13,29 +13,33 @@
     <title>Get the Sequence</title>
 </head>
 <body>
+<div id="container">
+<header>
+    <h1>Get the Sequence!</h1>
+</header>
 
 <main>
-    <header>
-        <h1>Get the Sequence!</h1>
-    </header>
-    <section>
+    <section id="game-instructions">
         <h2>Match the number pattern!</h2>
-        <p>Press the buttons to match the number sequence in the box below. Be quick you have 5 seconds!</p>
-        <div id="game-container">
-            <div id="game-stats">
-                <p>time left: <span id='timer'>5</span></p>
-                <p>wrong count: <span id ="wrong-count"></span></p>
-                <p><a href="index.html">Reset Game</a></p>
-            </div>
-            <p id="pattern">pattern here</p>
-            <div id="button-container">
-                buttons here
-            </div>
-        </div>
-        
-    </section>
+        <p>Press the buttons to match the number sequence in the box below. Be quick--you have 5 seconds!</p>
+    <section>
 
-</main>  
+    <section id="game-container">
+        <div id="game-stats">
+            <p>time left: <span id='timer'>5</span></p>
+            <p>wrong count: <span id ="wrong-count"></span></p>
+            <p><a href="index.html">Reset Game</a></p>
+        </div>
+        <p id="pattern"></p>
+        <div id="button-container"></div>
+    </section>
+</main> 
+
+<footer>
+    <p>Made with ✨ and ☕ by <a href="http://www.github.com/antashma" target="_blank">@Antashma</a></p>
+</footer> 
+
+</div>
 
 <script src="index.js"></script>
 
