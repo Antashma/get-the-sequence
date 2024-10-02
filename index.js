@@ -10,8 +10,8 @@ while (gamePattern.length < 5) {
     }
 }
 
-const patternDisplay = document.querySelector('#pattern');
-patternDisplay.textContent = gamePattern.join(" ");
+const messageDisplay = document.querySelector('#message');
+messageDisplay.textContent = gamePattern.join(" ");
 
 const buttonsDisplay = document.querySelector('#button-container');
 

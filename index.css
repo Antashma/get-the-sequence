@@ -1,13 +1,16 @@
-html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     font-size: 62.5%;
 }
 
 body {
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 
 }
 
@@ -15,14 +18,24 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 80vh;
 }
+
 
 h1 {
     font-size: 4rem;
     text-align: center;
 }
 
+header {
+    border-bottom: 1px dashed #666;
+    padding:10px 0; 
+    margin-bottom: 10px;
+}
+
 footer {
+    border-top: 1px dashed #666;
+    padding:10px 0;
     text-align: center;
 }
 
@@ -32,6 +45,11 @@ footer {
     justify-content: center;
     width: 500px;
     margin: 0 auto;
+    padding:0;
+}
+
+#game-instructions-container {
+    background-color: cornflowerblue;
 }
 
 #game-container {
@@ -47,7 +65,7 @@ footer {
     font-weight: bold;
 }
 
-#pattern {
+#message {
     font-size: 4rem;
     font-weight: bold;
     text-align: center;

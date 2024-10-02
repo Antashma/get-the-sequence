@@ -18,21 +18,25 @@
             <h1>Get the Sequence!</h1>
         </header>
 
-        <main>
-            <div id="game-instructions-container">
-                <h2>Match the number pattern!</h2>
-                <p>Press the buttons to match the number sequence in the box below. Be quick--you have 5 seconds!</p>
-                <a href="./game.html">Start!</a>
-            </div>
+        <main id="game-container">
+            <section id="game-stats">
+                <p>time left: <span id='timer'>5</span></p>
+                <p>wrong count: <span id ="wrong-count"></span></p>
+                <p><a href="index.html">Reset Game</a></p>
+            </section>
+
+            <section id="game-display">
+                <div id="message"></div>
+                <div id="button-container"></div>
+            </section>
         </main> 
 
         <footer>
             <p>Made with ✨ and ☕ by <a href="http://www.github.com/antashma" target="_blank">@Antashma</a></p>
         </footer> 
-
     </div>
 
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
