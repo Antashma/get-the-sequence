@@ -31,10 +31,8 @@ function checkWin() {
     if (currPatternIndex === gamePattern.length) {
         clearInterval(timer);
         document.querySelectorAll('.num-btn').forEach(el => el.disabled = true);
-        const winText = document.createElement('p');
-        winText.classList.add('end-text')
-        winText.textContent = 'You win :)';
-        gameDisplay.appendChild(winText);
+        messageDisplay.textContent = 'You win :)';
+        messageDisplay.classList.add("win-text");
     } 
 }
 
@@ -42,10 +40,8 @@ function checkLoss() {
     if (wrongCounter === 3 || timerStart === 0) {
         clearInterval(timer);
         document.querySelectorAll('.num-btn').forEach(el => el.disabled = true);
-        const loseText = document.createElement('p');
-        loseText.classList.add('end-text')
-        loseText.textContent = 'You lose :(';
-        gameDisplay.appendChild(loseText);
+        messageDisplay.textContent = 'You lose :(';
+        messageDisplay.classList.add("loss-text");
     }
 }
 
