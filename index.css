@@ -45,7 +45,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    max-width: 500px;
+    min-width: 350px;
     margin: 0 auto;
 
     background-color: white;
