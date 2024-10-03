@@ -3,7 +3,7 @@ Frontend game built using JavaScript, HTML, and CSS, designed to challenge playe
 
 Website URL: [https://get-the-sequence.vercel.app](https://get-the-sequence.vercel.app/)
 
-![Game screenshot](./assets/screenshot.png "Game screenshot")
+![Game screenshot](./assets/screenshot-v1.1.png "Game screenshot")
 
 ## Instructions
 Press the buttons to match the number sequence in the box below. Be quick--you have 5 seconds and are allowed 3 mistakes!
